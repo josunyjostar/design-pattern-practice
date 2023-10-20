@@ -2,7 +2,8 @@ const path = require('path');
 module.exports = {
     mode: 'development',
     //entry: "./src/composite/index.ts",
-    entry: './src/adapter/index.ts',
+    //entry: './src/adapter/index.ts',
+    entry: './src/strategy/index.ts',
     devtool: 'inline-source-map',
     module: {
         rules: [
